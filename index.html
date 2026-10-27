@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ImmoPrestige | Services immobiliers</title>
+    <meta name="description" content="Découvrez nos services immobiliers : vente, location, achat et accompagnement dans vos projets immobiliers en Côte d'Ivoire.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- EN-TÊTE -->
+    <header class="header">
+        <a href="#accueil" class="logo">
+            <span class="logo-icon">⌂</span>
+            <span>Immo<span class="gold">Prestige</span></span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Ouvrir le menu"
+                aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="navigation" id="navigation">
+            <a href="#accueil">Accueil</a>
+            <a href="#biens">Nos biens</a>
+            <a href="#services">Services</a>
+            <a href="#apropos">À propos</a>
+            <a href="#contact" class="nav-contact">Nous contacter</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ACCUEIL -->
+        <section class="hero" id="accueil">
+            <div class="hero-content">
+                <p class="eyebrow">VOTRE PARTENAIRE IMMOBILIER</p>
+
+                <h1>
+                    Trouvez le bien qui
+                    <span>vous correspond.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Achat, vente et location : nous vous accompagnons
+                    dans vos projets immobiliers avec sérieux,
+                    transparence et professionnalisme.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#biens" class="button button-gold">
+                        Découvrir nos biens
+                    </a>
+
+                    <a href="#contact" class="button button-outline">
+                        Parlons de votre projet
+                    </a>
+                </div>
+
+                <div class="hero-points">
+                    <span>✓ Accompagnement personnalisé</span>
+                    <span>✓ Solutions adaptées à vos besoins</span>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="images/maison%20(1).jpg"
+                    alt="Maison proposée par l'agence immobilière"
+                    fetchpriority="high"
+                >
+
+                <div class="image-label">
+                    <span class="label-dot"></span>
+                    Votre prochain projet commence ici
+                </div>
+            </div>
+        </section>
+
+
+        <!-- BIENS IMMOBILIERS -->
+        <section class="section properties" id="biens">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">NOTRE SÉLECTION</p>
+                    <h2>Des biens à découvrir</h2>
+                </div>
+
+                <p>
+                    Découvrez quelques exemples de biens pour
+                    vos projets d'achat ou de location.
+                </p>
+            </div>
+
+            <div class="property-grid">
+
+                <article class="property-card">
+                    <div class="property-image">
+                        <img
+                            src="images/maison%20(2).jpg"
+                            alt="Maison à découvrir"
+                            loading="lazy"
+                        >
+                        <span class="property-tag">Vente</span>
+                    </div>
+
+                    <div class="property-content">
+                        <p class="property-type">MAISON</p>
+                        <h3>Une maison pour votre famille</h3>
+                        <p class="property-description">
+                            Un espace à découvrir pour imaginer
+                            votre prochain lieu de vie.
+                        </p>
+                        <a href="#contact" class="property-link">
+                            Demander des informations →
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="property-card">
+                    <div class="property-image">
+                        <img
+                            src="images/maison%20(3).jpg"
+                            alt="Bien immobilier à découvrir"
+                            loading="lazy"
+                        >
+                        <span class="property-tag">Location</span>
+                    </div>
+
+                    <div class="property-content">
+                        <p class="property-type">LOGEMENT</p>
+                        <h3>Un espace adapté à vos besoins</h3>
+                        <p class="property-description">
+                            Explorez les possibilités pour trouver
+                            un logement qui vous convient.
+                        </p>
+                        <a href="#contact" class="property-link">
+                            Demander des informations →
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="property-card">
+                    <div class="property-image">
+                        <img
+                            src="images/maison%20(4).jpg"
+                            alt="Propriété immobilière à découvrir"
+                            loading="lazy"
+                        >
+                        <span class="property-tag">À découvrir</span>
+                    </div>
+
+                    <div class="property-content">
+                        <p class="property-type">IMMOBILIER</p>
+                        <h3>Un nouveau projet, une nouvelle adresse</h3>
+                        <p class="property-description">
+                            Faites-nous part de vos critères pour
+                            rechercher un bien correspondant à votre projet.
+                        </p>
+                        <a href="#contact" class="property-link">
+                            Demander des informations →
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- SERVICES -->
+        <section class="section services" id="services">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">CE QUE NOUS FAISONS</p>
+                    <h2>Nos services immobiliers</h2>
+                </div>
+
+                <p>
+                    Un accompagnement clair pour avancer
+                    plus sereinement dans votre projet.
+                </p>
+            </div>
+
+            <div class="services-grid">
+
+                <article class="service-card">
+                    <span class="service-number">01</span>
+                    <h3>Achat immobilier</h3>
+                    <p>
+                        Nous vous aidons à préciser vos critères
+                        et à rechercher un bien correspondant
+                        à votre budget et à vos attentes.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <span class="service-number">02</span>
+                    <h3>Vente de biens</h3>
+                    <p>
+                        Nous vous accompagnons dans la présentation
+                        de votre bien et dans les démarches liées
+                        à votre projet de vente.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <span class="service-number">03</span>
+                    <h3>Location immobilière</h3>
+                    <p>
+                        Nous vous aidons à rechercher un logement
+                        ou à présenter un bien à louer selon
+                        les besoins de votre projet.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <span class="service-number">04</span>
+                    <h3>Conseil et accompagnement</h3>
+                    <p>
+                        Nous vous aidons à mieux comprendre
+                        les étapes de votre projet et à identifier
+                        les points à vérifier avant de vous engager.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- À PROPOS -->
+        <section class="about" id="apropos">
+            <div class="about-content">
+                <p class="eyebrow">À PROPOS DE NOUS</p>
+
+                <h2>Votre projet immobilier mérite toute notre attention.</h2>
+
+                <p>
+                    ImmoPrestige accompagne les particuliers et les
+                    professionnels dans leurs recherches immobilières.
+                    Notre objectif est de comprendre vos besoins,
+                    de vous présenter des solutions adaptées et de
+                    vous guider à chaque étape.
+                </p>
+
+                <p>
+                    Que vous souhaitiez acheter, vendre ou louer,
+                    nous privilégions une communication claire
+                    et un accompagnement attentif.
+                </p>
+
+                <a href="#contact" class="button button-gold">
+                    Échangeons sur votre projet
+                </a>
+            </div>
+
+            <div class="about-visual">
+                <img
+                    src="images/maison%20(1).jpg"
+                    alt="Vue d'une propriété immobilière"
+                    loading="lazy"
+                >
+
+                <div class="about-note">
+                    <strong>Votre projet.</strong>
+                    <span>Notre accompagnement.</span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTACT ET DEMANDE IMMOBILIÈRE -->
+<section class="contact-section" id="contact">
+
+    <div class="contact-content">
+        <p class="eyebrow">VOTRE PROJET IMMOBILIER</p>
+
+        <h2>Décrivez la maison de vos rêves.</h2>
+
+        <p>
+            Vous recherchez une maison à acheter ou à louer ?
+            Indiquez-nous vos critères et votre budget.
+            Nous recevrons votre demande pour mieux comprendre
+            vos attentes.
+        </p>
+
+        <div class="contact-details">
+
+            <div class="contact-item">
+                <span class="contact-icon">☎</span>
+                <div>
+                    <h3>Téléphone / WhatsApp</h3>
+                    <p>+225 05 64 66 15 52</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <span class="contact-icon">✉</span>
+                <div>
+                    <h3>E-mail</h3>
+                    <p>christagahan07@gmail.com</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- FORMULAIRE -->
+    <form class="property-form" id="propertyForm">
+
+        <h3>Votre recherche immobilière</h3>
+
+        <p class="form-intro">
+            Remplissez les informations essentielles.
+        </p>
+
+        <div class="form-row">
+
+            <div class="form-group">
+                <label for="clientName">Votre nom *</label>
+                <input
+                    type="text"
+                    id="clientName"
+                    name="clientName"
+                    placeholder="Ex. : Jean Kouassi"
+                    autocomplete="name"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="clientPhone">Votre téléphone *</label>
+                <input
+                    type="tel"
+                    id="clientPhone"
+                    name="clientPhone"
+                    placeholder="Ex. : 07 00 00 00 00"
+                    autocomplete="tel"
+                    required
+                >
+            </div>
+
+        </div>
+
+
+        <div class="form-group">
+            <label for="propertyType">Type de bien *</label>
+
+            <select id="propertyType" name="propertyType" required>
+                <option value="">Choisir un type</option>
+                <option value="Maison">Maison</option>
+                <option value="Villa">Villa</option>
+                <option value="Appartement">Appartement</option>
+                <option value="Terrain">Terrain</option>
+                <option value="Autre">Autre</option>
+            </select>
+        </div>
+
+
+        <div class="form-row">
+
+            <div class="form-group">
+                <label for="transaction">Votre projet *</label>
+
+                <select id="transaction" name="transaction" required>
+                    <option value="">Choisir</option>
+                    <option value="Achat">Acheter</option>
+                    <option value="Location">Louer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="bedrooms">Nombre de chambres</label>
+
+                <select id="bedrooms" name="bedrooms">
+                    <option value="">Indifférent</option>
+                    <option value="1 chambre">1 chambre</option>
+                    <option value="2 chambres">2 chambres</option>
+                    <option value="3 chambres">3 chambres</option>
+                    <option value="4 chambres">4 chambres</option>
+                    <option value="5 chambres ou plus">5 ou plus</option>
+                </select>
+            </div>
+
+        </div>
+
+
+        <div class="form-row">
+
+            <div class="form-group">
+                <label for="location">Ville ou quartier souhaité *</label>
+
+                <input
+                    type="text"
+                    id="location"
+                    name="location"
+                    placeholder="Ex. : Abidjan, Cocody"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="budget">Budget approximatif *</label>
+
+                <input
+                    type="text"
+                    id="budget"
+                    name="budget"
+                    placeholder="Ex. : 50 millions FCFA"
+                    required
+                >
+            </div>
+
+        </div>
+
+
+        <div class="form-group">
+            <label for="details">
+                Décrivez la maison que vous souhaitez
+            </label>
+
+            <textarea
+                id="details"
+                name="details"
+                rows="5"
+                placeholder="Ex. : une villa avec jardin, garage, cuisine équipée et cour..."
+            ></textarea>
+        </div>
+
+
+        <button type="submit" class="button button-gold form-submit">
+            Envoyer ma demande sur WhatsApp
+        </button>
+
+        <p class="form-privacy">
+            Vos informations seront intégrées au message WhatsApp
+            que vous choisirez d'envoyer.
+        </p>
+
+    </form>
+
+</section>
+
+    </main>
+
+
+    <!-- PIED DE PAGE -->
+    <footer class="footer">
+        <a href="#accueil" class="logo footer-logo">
+            <span class="logo-icon">⌂</span>
+            <span>Immo<span class="gold">Prestige</span></span>
+        </a>
+
+        <p>Votre projet immobilier commence ici.</p>
+
+        <a href="#accueil" class="back-to-top">Retour en haut ↑</a>
+
+        <p class="copyright">
+            © <span id="year"></span> ARCHITECT-01. Tous droits réservés.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
